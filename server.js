@@ -1,4 +1,4 @@
-onst express = require('express');
+const express = require('express');
 const app = express();
 
 // Ide jöhetnek az egyéb beállítások, middleware-ek, route-ok
