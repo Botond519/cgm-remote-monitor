@@ -1,3 +1,14 @@
+onst express = require('express');
+const app = express();
+
+// Ide jöhetnek az egyéb beállítások, middleware-ek, route-ok
+
+// Port beállítása: Render által adott port vagy alapértelmezett 1337
+const port = process.env.PORT || 1337;
+
+app.listen(port, () => {
+  console.log(Server running on port ${port});
+});
 /*
 * cgm-remote-monitor - web app to broadcast cgm readings
 * Copyright (C) 2014 Nightscout contributors.  See the COPYRIGHT file
